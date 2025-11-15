@@ -1,0 +1,10 @@
+[package]
+name = "web_crawler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "web_crawler"
+path = "main.rs"
