@@ -1,0 +1,5 @@
+- Needed to `apt` upgrade openssl and install libssl-dev
+- For cargo, point SSL includes to `/usr/include/openssl`
+  - $ export OPENSSL_INCLUDE_DIR="/usr/include/openssl"
+  - OPENSSL_DIR=/usr/lib/ssl  # don't need this actually
+  - OPENSSL_LIBS="/usr/lib/x86_64-linux-gnu/"
